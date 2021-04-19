@@ -1,5 +1,5 @@
 import React, {createContext, useState, useEffect} from 'react';
-import initialStore from '/Users/seanc/csci3366/enviornmental-racism/src/utils/initialStore.js';
+import initialStore from '../utils/initialStore.js';
 
 
 

@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import StoreContextProvider from '/Users/seanc/csci3366/enviornmental-racism/src/contexts/StoreContext.js';
+import StoreContextProvider from '../contexts/StoreContext.js';
 import "./App.css";
 import css from "./App.module.css";
 import About from "./About.js";
 import Home from "./Home.js";
-import Articles from "./Articles.js";
-import Article from "./Article";
-import Books from "./Books.js";
-import MostPopular from "./MostPopular.js";
-import Videos from "./Videos.js";
-import Organizations from "./Organizations.js";
+import Content from "./Content.js";
+import Header from './Header.js';
+import FullPage from './FullPage.js'
+
 
 import {
   BrowserRouter as Router,
@@ -26,47 +24,26 @@ function App() {
       <StoreContextProvider>
     <div className={css.container}>
       <main className={css.content}>
-        {renderMain()}
+        <Header/>
+        <Switch>
+          <Route path="/content/:filter?">
+              <Content />
+          </Route>
+          <Route path="/FullPage/:contentId">
+              <FullPage />
+          </Route>
+          <Route path="/home">
+              <Home />
+          </Route>
+          <Route path="/">
+              <About />
+          </Route>
+        </Switch>
       </main>
     </div>
     </StoreContextProvider>
     </Router>
   );
-
-
-  function renderMain() {
-    return (
-      <Switch>
-        <Route path="/article/:articleId?">
-            <Article />
-        </Route>
-        <Route path="/home">
-            <Home />
-        </Route>
-        <Route path="/books">
-            <Books />
-        </Route>
-        <Route path="/articles">
-            <Articles />
-        </Route>
-        <Route path="/videos">
-            <Videos />
-        </Route>
-        <Route path="/mostpopular">
-            <MostPopular />
-        </Route>
-        <Route path="/organizations">
-            <Organizations />
-        </Route>
-        <Route path="/about">
-            <About />
-        </Route>
-      </Switch>
-
-    );
-
-  }
-
 
 }
 

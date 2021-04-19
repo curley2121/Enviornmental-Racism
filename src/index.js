@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from '/Users/seanc/csci3366/enviornmental-racism/src/components/App.js';
+import App from './components/App.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
