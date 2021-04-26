@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/enviornmental-racism/static/css/main.7a36e01c.chunk.css",
+    "main.js": "/enviornmental-racism/static/js/main.2bbdff4f.chunk.js",
+    "main.js.map": "/enviornmental-racism/static/js/main.2bbdff4f.chunk.js.map",
+    "runtime-main.js": "/enviornmental-racism/static/js/runtime-main.84f9007b.js",
+    "runtime-main.js.map": "/enviornmental-racism/static/js/runtime-main.84f9007b.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/enviornmental-racism/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8e9a674f.chunk.js": "/enviornmental-racism/static/js/2.8e9a674f.chunk.js",
+    "static/js/2.8e9a674f.chunk.js.map": "/enviornmental-racism/static/js/2.8e9a674f.chunk.js.map",
+    "static/js/3.e8156c44.chunk.js": "/enviornmental-racism/static/js/3.e8156c44.chunk.js",
+    "static/js/3.e8156c44.chunk.js.map": "/enviornmental-racism/static/js/3.e8156c44.chunk.js.map",
+    "index.html": "/enviornmental-racism/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/enviornmental-racism/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.7a36e01c.chunk.css.map": "/enviornmental-racism/static/css/main.7a36e01c.chunk.css.map",
+    "static/js/2.8e9a674f.chunk.js.LICENSE.txt": "/enviornmental-racism/static/js/2.8e9a674f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84f9007b.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8e9a674f.chunk.js",
+    "static/css/main.7a36e01c.chunk.css",
+    "static/js/main.2bbdff4f.chunk.js"
+  ]
+}
