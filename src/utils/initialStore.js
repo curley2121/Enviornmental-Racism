@@ -13,11 +13,13 @@ export default {
             desc:"Environmental racism is a concept in the environmental justice movement, which developed in the United States throughout the 1970s and 1980s. The term is used to describe environmental injustice that occurs within a racialized context both in practice and policy.",
             datetime: "2020-02-09T22:45:28Z",
             body: "Shaina Oliver's asthma flares up on cold days. Her kids can't play outside, often due to the heavy air pollution surrounding their community. Oliver, a field organizer for Moms Clean Air Force, lives in north Denver, which at one point was one of the most polluted zip codes in the U.S. The Suncor refinery, located just north of where she lives, is located in a predominantly Black and brown community. But if you head to the south side of Denver, she said, there are no homes near refineries",  
-            url:  "https://www.goodmorningamerica.com/living/story/environmental-racism-continues-affect-communities-color-77099611"
+            url:  "https://www.goodmorningamerica.com/living/story/environmental-racism-continues-affect-communities-color-77099611",
+            likes: "0",
 
         },
         {   
             id: "2",
+            likes: "2",
             type: "article",
             title: "How a protest in a North Carolina farming town sparked a national movement",
             author:"The Washington Post",
@@ -28,6 +30,7 @@ export default {
         },
         {   
             id:"3",
+            likes: "0",
             type: "article",
             title: "First Black man to lead EPA reveals personal challenges of environmental racism",
             author:"The Hill",
@@ -38,26 +41,29 @@ export default {
         },
         {   
             id:"4",
+            likes: "1",
             type: "book",
             title: "A Terrible Thing to Waste",
             author:"Harriet A. Washington",
             desc:"Environmental Racism and Its Assault on the American Mind",
-            year: 2019,
+            datetime: "2019-01-01T22:45:28Z",
             url: "https://www.amazon.com/Terrible-Thing-Waste-Environmental-American-ebook/dp/B07F65ZFFV"
 
         },
         {   
             id:"5",
+            likes: "1",
             type: "book",
             title: "Toxic Communities: Environmental Racism, Industrial Pollution, and Residential Mobility",
             author:"Dorceta Taylor",
             desc:"From St. Louis to New Orleans, from Baltimore to Oklahoma City, there are poor and minority neighborhoods so beset by pollution that just living in them can be hazardous to your health.",
-            year: 2014,   
+            datetime: "2014-01-01T22:45:28Z",   
             url: "https://www.amazon.com/Toxic-Communities-Environmental-Industrial-Residential/dp/1479861782"
 
         },
         {   
             id:"6",
+            likes: "0",
             type: "video",
             title: "Environmental Racism Is the New Jim Crow",
             author:"The Atlantic",
@@ -69,6 +75,7 @@ export default {
         },
         {   
             id:"7",
+            likes: "0",
             type: "video",
             title: "A Brief History of Environmental Justice",
             author:"ProPublica",
@@ -79,18 +86,22 @@ export default {
         },
         {   
             id:"8",
+            likes: "0",
             type: "organization",
             title: "GoFundMe",
             desc:"Help Jane Doe distribute clean water to the community.",
-            url: "https://www.gofundme.com/f/2boe3ojgc0?qid=cd6066585e42e7d23f2a8875f30492bb"
+            url: "https://www.gofundme.com/f/2boe3ojgc0?qid=cd6066585e42e7d23f2a8875f30492bb",
+            datetime: "2015-01-01T22:45:28Z",
 
         },
         {   
             id:"9",
+            likes: "0",
             type: "organization",
             title: "WeAct",
             desc:"More than ever, community mobilization is key to achieving environmental justice in New York City and beyond.",
-            url: "https://www.weact.org/home-3-2/getinvolved/donate/"
+            url: "https://www.weact.org/home-3-2/getinvolved/donate/",
+            datetime: "2015-01-01T22:45:28Z",
 
         },
 

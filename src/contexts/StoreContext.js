@@ -8,12 +8,7 @@ export const StoreContext = createContext();
 
 
 function StoreContextProvider(props){
-    const [store, setStore] = useState(()=>{
-        return JSON.parse(window.localStorage.getItem('store')) || initialStore;
-    });
-    useEffect(()=>{
-        window.localStorage.setItem('store', JSON.stringify(store));
-    }, [store]);
+    const [store, setStore] = useState(initialStore);
 	return (
         <StoreContext.Provider value = {{...store}}>
             {props.children}
