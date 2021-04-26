@@ -1,7 +1,7 @@
 export default { 
     about: {
         title: "Evironmental Racism",
-        body: "Our goal is to collect and facilitate access to books, videos, websites, and academic papers covering environmental racism across the globe.",
+        body: "Our goal is to collect and facilitate access to books, videos, websites, and academic papers covering environmental racism across the globe. In our research we quickly discovered that the topic is not as widely known as it should be and so we set out to provide an all in one resource to help educate the world. With your help we can move one step closer to making real progress in the fight against environmental racism so get reading!",
         logo: "https://www.phcppros.com/ext/resources/DO-NOT-DELETE/EPA-Logo.jpg?1523544026"
     },
     content:[
