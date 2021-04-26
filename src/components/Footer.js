@@ -1,6 +1,5 @@
 import React from 'react';
 import publicUrl from '../utils/publicUrl';
-import ModalFooter from 'react-bootstrap/ModalFooter'
 
 function Footer(props) {
     let {contentId} = props;
