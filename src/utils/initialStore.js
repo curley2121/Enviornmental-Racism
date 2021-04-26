@@ -69,6 +69,7 @@ export default {
             author:"The Atlantic",
             desc:"Communities of color face disproportionate rates of natural disaster and environmental harm",
             url: "https://www.youtube.com/watch?v=nnF5I7lt6nQ",
+            embed: "https://www.youtube.com/embed/nnF5I7lt6nQ?rel=0",
             thumbnail: "https://i.ytimg.com/an_webp/nnF5I7lt6nQ/mqdefault_6s.webp?du=3000&sqp=COiv8YMG&rs=AOn4CLAu1bsJlUncGadmtEZwwfYkt8I7bw",
             datetime: "2019-01-09T22:45:28Z",   
 
@@ -81,6 +82,7 @@ export default {
             author:"ProPublica",
             desc:"Landfills, chemical waste facilities and power plants are more often built in poor and minority communities, which don't have the power or money to advocate for themselves.",
             url: "https://www.youtube.com/watch?v=30xLg2HHg8Q",
+            embed: "https://www.youtube.com/embed/30xLg2HHg8Q?rel=0",
             thumbnail: "https://i.ytimg.com/an_webp/30xLg2HHg8Q/mqdefault_6s.webp?du=3000&sqp=CMyU8YMG&rs=AOn4CLBzHYLrTbzxcLhOe5XadnpSkBe6Sw",
             datetime: "2018-01-09T22:45:28Z",    
         },

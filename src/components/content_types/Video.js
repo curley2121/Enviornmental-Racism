@@ -4,8 +4,11 @@ function Video(props) {
     let {content} = props;
 
     return (
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src={content.url} allowfullscreen></iframe>
+        <div>
+            <h2>{content.title}</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src={content.embed} allowfullscreen></iframe>
+            </div>
         </div>
     );
 }
