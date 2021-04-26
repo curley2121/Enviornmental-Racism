@@ -2,10 +2,17 @@ import React from 'react';
 
 function Article(props) {
     let {content} = props;
-    console.log(content);
+    let date = new Date(content.datetime)
+
     return (
-        <div>I work</div>
-    )
+        <div>
+            <h2>{ content.title }</h2>
+            <h5>{ content.author }</h5>
+            <h5>{ date.toDateString() }</h5>
+            <p>{ content.body }</p>
+            <a href={content.url} target="_blank">Read the full article here</a>
+        </div>
+    );
 }
 
 export default Article;
