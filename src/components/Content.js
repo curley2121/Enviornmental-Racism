@@ -12,7 +12,7 @@ function Content() {
         <div className={css.container}>
             <p>Content works!</p>
             <p>Filter by {typeof filter == 'undefined' ? 'all' : filter} Content</p>
-            <Link to="/FullPage/putIDhere">
+            <Link to="/FullPage/1">
                 <ContentCard cardType="article"/>
             </Link>
         </div>
