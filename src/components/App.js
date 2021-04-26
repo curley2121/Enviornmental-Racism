@@ -6,8 +6,7 @@ import About from "./About.js";
 import Home from "./Home.js";
 import Content from "./Content.js";
 import Header from './Header.js';
-import FullPage from './FullPage.js';
-import "bootstrap/dist/css/bootstrap.min.css";
+import FullPage from './FullPage.js'
 
 
 import {
@@ -36,8 +35,11 @@ function App() {
           <Route path="/home">
               <Home />
           </Route>
-          <Route path="/">
+          <Route path="/about">
               <About />
+          </Route>
+          <Route path="/">
+              <Home />
           </Route>
         </Switch>
       </main>

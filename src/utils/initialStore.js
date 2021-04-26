@@ -1,7 +1,7 @@
 export default { 
     about: {
         title: "Evironmental Racism",
-        body: "Our goal is to collect and facilitate access to books, videos, websites, and academic papers covering environmental racism across the globe.",
+        body: "Our goal is to collect and facilitate access to books, videos, websites, and academic papers covering environmental racism across the globe. In our research we quickly discovered that the topic is not as widely known as it should be and so we set out to provide an all in one resource to help educate the world. With your help we can move one step closer to making real progress in the fight against environmental racism so get reading!",
         logo: "https://www.phcppros.com/ext/resources/DO-NOT-DELETE/EPA-Logo.jpg?1523544026"
     },
     content:[
@@ -69,7 +69,6 @@ export default {
             author:"The Atlantic",
             desc:"Communities of color face disproportionate rates of natural disaster and environmental harm",
             url: "https://www.youtube.com/watch?v=nnF5I7lt6nQ",
-            embed: "https://www.youtube.com/embed/nnF5I7lt6nQ?rel=0",
             thumbnail: "https://i.ytimg.com/an_webp/nnF5I7lt6nQ/mqdefault_6s.webp?du=3000&sqp=COiv8YMG&rs=AOn4CLAu1bsJlUncGadmtEZwwfYkt8I7bw",
             datetime: "2019-01-09T22:45:28Z",   
 
@@ -82,7 +81,6 @@ export default {
             author:"ProPublica",
             desc:"Landfills, chemical waste facilities and power plants are more often built in poor and minority communities, which don't have the power or money to advocate for themselves.",
             url: "https://www.youtube.com/watch?v=30xLg2HHg8Q",
-            embed: "https://www.youtube.com/embed/30xLg2HHg8Q?rel=0",
             thumbnail: "https://i.ytimg.com/an_webp/30xLg2HHg8Q/mqdefault_6s.webp?du=3000&sqp=CMyU8YMG&rs=AOn4CLBzHYLrTbzxcLhOe5XadnpSkBe6Sw",
             datetime: "2018-01-09T22:45:28Z",    
         },
