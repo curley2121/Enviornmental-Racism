@@ -58,13 +58,6 @@ function Content() {
 
     return (
         <div className={css.container}>
-<<<<<<< HEAD
-            <p>Content works!</p>
-            <p>Filter by {typeof filter == 'undefined' ? 'all' : filter} Content</p>
-            <Link to="/FullPage/1">
-                <ContentCard cardType="article"/>
-            </Link>
-=======
             <h1 className={css.title}> {fName}</h1>
             <Dropdown onSelect={handleSelect}>
             <Dropdown.Toggle  className={css.drop} variant="success" id="dropdown-basic" >
@@ -87,7 +80,6 @@ function Content() {
         )
         }
 
->>>>>>> 9320c9616240724ab659b282c89d625d16f9832c
         </div>
     );
 
