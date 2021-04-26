@@ -9,7 +9,7 @@ function Book(props) {
             <h5>{ content.author }</h5>
             <h5>{ content.year }</h5>
             <p>{ content.desc }</p>
-            <a href={content.url} target="_blank">Get the book here</a>
+            <a href={content.url} rel="noreferrer" target="_blank">Get the book here</a>
         </div>
     );
 }

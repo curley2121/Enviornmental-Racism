@@ -31,8 +31,10 @@ function FullPage() {
             return <div>Something has gone catostrophically wrong</div>
     }
     return (
-        <div className="container">
-            {contentComp}
+        <div>
+            <div className="container">
+                {contentComp}
+            </div>
             <Footer contentId={contentId}/>
         </div>
     )

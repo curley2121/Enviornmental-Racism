@@ -1,16 +1,17 @@
 import React from 'react';
 import publicUrl from '../utils/publicUrl';
+import css from './Footer.module.css'
 
 function Footer(props) {
     let {contentId} = props;
     return (
-        <footer class="footer mt-auto py-3 bg-light">
-            <div class="container d-flex justify-content-around">
+        <footer class={css.footer}>
+            <div class="mt-auto py-3 bg-light d-flex justify-content-around">
                 <button>
-                    <img src={publicUrl('/assets/like.svg')} alt="Like"/>
+                    <img class="img-fluid" src={publicUrl('/assets/like.svg')} alt="Like"/>
                 </button>
                 <button>
-                    <img src={publicUrl('/assets/comment.svg')} alt="Comment"/>
+                    <img class="img-fluid" src={publicUrl('/assets/comment.svg')} alt="Comment"/>
                 </button>
             </div>
         </footer>

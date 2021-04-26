@@ -10,7 +10,7 @@ function Article(props) {
             <h5>{ content.author }</h5>
             <h5>{ date.toDateString() }</h5>
             <p>{ content.body }</p>
-            <a href={content.url} target="_blank">Read the full article here</a>
+            <a href={content.url} rel="noreferrer" target="_blank">Read the full article here</a>
         </div>
     );
 }

@@ -7,7 +7,7 @@ function Organization(props) {
         <div>
             <h2>{ content.title }</h2>
             <p>{ content.desc }</p>
-            <a href={content.url} target="_blank">Learn more and support this charity here</a>
+            <a href={content.url} rel="noreferrer" target="_blank">Learn more and support this charity here</a>
         </div>
     );
 }
