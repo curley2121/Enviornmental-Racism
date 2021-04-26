@@ -6,7 +6,7 @@ function Home() {
         <div>
             <p>Home works!</p>
             <button>
-                <Link to="/Content">
+                <Link to="/Content/all">
                     All content
                 </Link>
             </button>
@@ -16,22 +16,22 @@ function Home() {
                 </Link>
             </button>
             <button>
-                <Link to="/Content/articles">
+                <Link to="/Content/article">
                     Articles
                 </Link>
             </button>
             <button>
-                <Link to="/Content/books">
+                <Link to="/Content/book">
                     Books
                 </Link>
             </button>
             <button>
-                <Link to="/Content/videos">
+                <Link to="/Content/video">
                     Videos
                 </Link>
             </button>
             <button>
-                <Link to="/Content/organizations">
+                <Link to="/Content/organization">
                     Organizations
                 </Link>
             </button>
