@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import StoreContextProvider from '../contexts/StoreContext.js';
 import "./App.css";
 import css from "./App.module.css";
@@ -17,8 +17,6 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const [page, setPage] = useState('home');
-  
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
@@ -36,8 +34,11 @@ function App() {
           <Route path="/home">
               <Home />
           </Route>
-          <Route path="/">
+          <Route path="/about">
               <About />
+          </Route>
+          <Route path="/">
+              <Home />
           </Route>
         </Switch>
       </main>
