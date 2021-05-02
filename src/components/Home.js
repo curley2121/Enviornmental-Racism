@@ -5,7 +5,7 @@ import css from './Home.module.css';
 function Home() {
     return (
         <div className={css.container}>
-            <h1 className={css.title}>Welcome to -NAME- </h1>
+            <h1 className={css.title}>Welcome to ENDviroRacism </h1>
                 <Link to="/about">
                   <button className={css.contbutton}>
                     About Us
