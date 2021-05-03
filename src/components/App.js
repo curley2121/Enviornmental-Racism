@@ -6,9 +6,8 @@ import About from "./About.js";
 import Home from "./Home.js";
 import Content from "./Content.js";
 import Header from './Header.js';
-import FullPage from './FullPage.js';
+import FullPage from './FullPage.js'
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 import {
   BrowserRouter as Router,
