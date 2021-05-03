@@ -20,16 +20,14 @@ function Header() {
         <div className={css.navbar} >
                
                 <Link to="/Content/all">
-                  <img src = "./assets/search_icon.svg" alt = 'return'  className={css.icon}/>
+                  <img src = "./assets/search_icon.svg" alt = 'Search'  className={css.icon}/>
                 </Link>
             
                 <Link to="/home">
-                  <button className={css.navbutton}>
-                    Home
-                  </button>
+                  <img src = "./assets/EnviroLogo.svg" alt = 'Home'  className={css.icon}/>
                 </Link>
                 
-                <img src = "./assets/return.svg" alt = 'return' onClick={handleReturn} className={css.icon}/>         
+                <img src = "./assets/return.svg" alt = 'Return' onClick={handleReturn} className={css.icon}/>         
         </div>
     );
 }

@@ -4,13 +4,15 @@
 
 }
 .title{
+    font-family: "HelveticaNeue-CondensedBold" !important;
     text-align: center;
     font-weight:bold;
-    color: white;
-    padding-bottom: 20px;
+    color: rgb(0, 32, 92);
+    padding-bottom: 5px;
     padding-top: 20px;
-    background-color: rgb(0, 32, 92);
-    margin-bottom: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 .card {
     background-color: #ffffff;
@@ -28,10 +30,14 @@
 
   }
 
+  @media screen {
+    
+  }
+
   .drop {
     background-color: rgb(0, 32, 92) !important;
     
-    width: 300px !important;
+    width: 250px !important;
     height: 40px !important;
     color: rgb(255, 255, 255) !important;
     padding-bottom: 10px;
@@ -50,10 +56,10 @@
   .item{
     background-color: rgb(0, 32, 92)!important;
     border: none!important;
-    width: 300px!important;
-    height: 20px!important;
+    width: 250px!important;
     color: rgb(255, 255, 255)!important;
-    padding: 20px 0px!important;
+    padding-bottom: 30px;
+    padding-top:30px;
     text-align: center!important;
     text-decoration: none!important;
     margin: 0px auto!important;    

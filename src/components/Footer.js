@@ -5,13 +5,13 @@ import css from './Footer.module.css'
 function Footer(props) {
     let {contentId} = props;
     return (
-        <footer class={css.footer}>
-            <div class="mt-auto py-3 bg-light d-flex justify-content-around">
+        <footer className={css.footer}>
+            <div className="mt-auto py-3 bg-light d-flex justify-content-around">
                 <button>
-                    <img class="img-fluid" src={publicUrl('/assets/like.svg')} alt="Like"/>
+                    <img className="img-fluid" src={publicUrl('/assets/like.svg')} alt="Like"/>
                 </button>
                 <button>
-                    <img class="img-fluid" src={publicUrl('/assets/comment.svg')} alt="Comment"/>
+                    <img className="img-fluid" src={publicUrl('/assets/comment.svg')} alt="Comment"/>
                 </button>
             </div>
         </footer>

@@ -22,17 +22,17 @@ function Content() {
     let fName = "default";
 
     if (filter === "article"){
-        fName = "Top Articles";
+        fName = "TOP ARTICLES";
     }else if (filter === "video"){
-        fName = "Top Videos";
+        fName = "TOP VIDEOS";
     }else if (filter === "organization"){
-        fName = "Top Organizations";
+        fName = "TOP ORGANIZATIONS";
     }else if (filter === "book"){
-        fName = "Top Books";
+        fName = "TOP BOOKS";
     }else if (filter === "all"){
-        fName = "All Posts";
+        fName = "ALL POSTS";
     }else if (filter === "mostPopular"){
-        fName = "Most Popular";
+        fName = "MOST POPULAR";
     }
 
 
