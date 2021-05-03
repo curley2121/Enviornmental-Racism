@@ -19,9 +19,6 @@ function Header() {
     return (
         <div className={css.navbar} >
                
-                <Link to="/Content/all">
-                  <img src = "./assets/search_icon.svg" alt = 'Search'  className={css.icon}/>
-                </Link>
             
                 <Link to="/home">
                   <img src = "./assets/EnviroLogo.svg" alt = 'Home'  className={css.icon}/>
