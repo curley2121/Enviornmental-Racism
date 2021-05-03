@@ -76,14 +76,16 @@
   }
 
   input {
+    display: block !important;
     font-family: "Gill Sans";
     width: 50%;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #f4f3ee;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    background-color: #ffffff;
     border: 1.5px solid #392f5a;
     border-radius: 5px;
+    padding:5px;
   }
   
   .searchInput {

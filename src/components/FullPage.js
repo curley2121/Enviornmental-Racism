@@ -6,6 +6,7 @@ import Book from './content_types/Book.js';
 import Organization from './content_types/Organization.js';
 import Video from './content_types/Video.js';
 import Footer from './Footer.js'
+import css from "./FullPage.module.css";
 
 // Full page of content. Content ID guaranteed to be in param
 function FullPage() {
@@ -31,7 +32,7 @@ function FullPage() {
             return <div>Something has gone catostrophically wrong</div>
     }
     return (
-        <div>
+        <div className={css.container}>
             <div className="container">
                 {contentComp}
             </div>
