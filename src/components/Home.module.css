@@ -1,45 +1,50 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
-    width:100%;
-    height: 44px;
-    padding:0px 18px;
-    left:0px;
-    padding-bottom:10px;
-    margin-top:5px;
-
-    border-bottom: 1px solid #dbdbdb;
-    background-color: #fff;
-    position:sticky;
+.container {
+    margin: auto;
+    background-color: #ffffff;
+  
+}
+.logo_main {height:150px;
+width:auto;
+display:block;
+text-align:center;
+margin-left: auto;
+  margin-right: auto;
 }
 
-.navbutton{
-  padding: 3px;
-  border: 5px solid;
-  border-color: rgb(0, 32, 92);
-  background: none;
-  font-size: 100%;
-  font-family: helvetica;
-  margin-top:5px;
-}
-.navbutton:focus{
-  outline: none;
+
+.title{text-align:center;
+padding:20px;
+font-weight:bold;
+font-family: "HelveticaNeue-CondensedBold" !important;
 }
 
-.navbutton:hover{
-  background: none;
+.contbutton{
+   background-color: rgb(0, 32, 92);
+
+    border: 10px, solid;
+    border-color: rgb(0, 32, 92);
+    border-radius: 5px;
+    outline:none;
+    
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px auto;    
+    display:block;
+    cursor:pointer;
+    margin-top:30px;
 }
 
-.icon{
-  height:30px;
-  width:auto;
+  .contbutton:hover {
+    background-color: rgb(30, 76, 163);
 }
+  
+  a:hover, a:active {
+    color:white;
+    background-color: rgb(209, 209, 230);
+  }
 
-a, a:hover, a:focus {
-  text-decoration:none;
-}
