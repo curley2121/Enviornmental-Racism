@@ -14,7 +14,7 @@ function Content() {
   let { content } = useContext(StoreContext);
   const [value, setValue] = useState("Most Liked");
   const [filtered,] = useState(
-    filter === "mostPopular" || filter === "all"
+    filter === "all"
       ? content
       : content.filter((cont) => cont.type === filter)
   );
@@ -54,9 +54,10 @@ function Content() {
           .reverse()
       );
     } else if (value === "Most Liked") {
-      setDisplayed(filtered.sort((a, b) => b.likes - a.likes));
+      setDisplayed(filtered.sort((a, b) => a.likes - b.likes));
+      
     } else if (value === "Least Liked") {
-      setDisplayed(filtered.sort((a, b) => b.likes - a.likes).reverse());
+      setDisplayed(filtered.sort((a, b) => b.likes - a.likes));
     }
   }
 
@@ -64,23 +65,18 @@ function Content() {
     console.log(e.target.value);
     let keyword = e.target.value;
 
-    // searchedAlbums will be a temp holder of the search results
     let results = [];
 
-    // Goes through each album within the album data
     filtered.map((item) => {
       if (
-        // Checks if keyword is found with the album name
         item["type"].toLowerCase().includes(keyword.toLowerCase())
       )
         results.push(item);
       else if (
-        // Checks if keyword is found with the artist name
         item["title"].toLowerCase().includes(keyword.toLowerCase())
       )
         results.push(item);
       else if (
-        // Checks if keyword is found within the genre
         item["desc"].toLowerCase().includes(keyword.toLowerCase())
       )
         results.push(item);
