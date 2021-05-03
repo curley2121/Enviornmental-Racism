@@ -12,12 +12,6 @@ function Home() {
                     About Us
                   </button>
                 </Link>
-                <Link to="/Content/all">
-                  <button className={css.contbutton}>
-                    All content
-                  </button>
-                </Link>
-            
                 <Link to="/Content/mostPopular">
                   <button className={css.contbutton}>
                     Most Popular
@@ -51,9 +45,15 @@ function Home() {
                     Organizations
                   </button>
                 </Link>
+                <Link to="/Content/all">
+                  <button className={css.contbutton}>
+                    All content
+                  </button>
+                </Link>
             
         </div>
     )
 }
 
 export default Home;
+
