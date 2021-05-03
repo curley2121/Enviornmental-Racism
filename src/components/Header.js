@@ -25,7 +25,7 @@ function Header() {
                   <img src = {publicUrl("/assets/EnviroLogo.svg")} alt = 'Home'  className={css.icon}/>
                 </Link>
                 
-                <img src = "./assets/return.svg" alt = 'Return' onClick={handleReturn} className={css.icon}/>         
+                <img src = {publicUrl("/assets/return.svg")} alt = 'Return' onClick={handleReturn} className={css.icon}/>         
         </div>
     );
 }

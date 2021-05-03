@@ -109,31 +109,6 @@ export default {
         },
 
     ],
-    users:[
-        {
-            id:"judy",
-            email:"judy@bc.edu",
-            photo:"/assets/user1.png",
-            name: "Judy Hopps",
-            bio:"The first rabbit officer of the Zootopia Police Department. Judy is determined to make the world a better place while breaking preconceptions about other species.",
-            
-        },
-        {
-            id:"nick",
-            email:"nick@bc.edu",
-            photo:"/assets/user2.png",
-            name:"Nick Wilde",
-            bio:"Nick is a charming, small-time, con artist fox with a big mouth and a lot of opinions. But when a rabbit cop outsmarts him, he finds himself actually helping her solve a mystery."
-        },
-        {
-            id:"flash",
-            email:"flash@bc.edu",
-            photo:"/assets/user3.png",
-            name: "Flash Slothmore",
-            bio:"Flash is a male three-toed sloth and a supporting character in Zootopia. He works at the Department of Mammal Vehicles.",
-            
-        }
-    ],
     comments:[
         {
             userId:"nick",
