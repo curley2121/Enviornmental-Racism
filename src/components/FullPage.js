@@ -66,8 +66,9 @@ function FullPage(props) {
             return <div>Something has gone catostrophically wrong</div>
     }
     return (
-        <div>
+        <div className={css.pagecontainer}>
             <div className="container">
+            <div className={css.contentwrap}>
                 <div className={css.contentContainer}>
                     {contentComp}
                 </div>
@@ -81,6 +82,7 @@ function FullPage(props) {
                     <button type="submit">Post</button>
                     </form>
                 }
+            </div>
             </div>
             <footer className={css.footer}>
                 <div className="mt-auto py-3 bg-light d-flex justify-content-around">
