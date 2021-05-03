@@ -9,7 +9,7 @@ import publicUrl from '../utils/publicUrl';
 import css from './FullPage.module.css';
 
 // Full page of content. Content ID guaranteed to be in param
-function FullPage(props) {
+function FullPage() {
     let { contentId } = useParams();
     let { currentUserId, content, comments, likes, addComment, addLike, removeLike} = useContext(StoreContext);
     let thisContent = content.find(resource => resource.id === contentId);
@@ -41,10 +41,10 @@ function FullPage(props) {
     }
 
     function renderComments() {
-        return contentComments.map(d=>
-              <div class={css.comment}>
-                <p class={css.user}>{d.userId}</p>
-                <p class={css.desc}>{d.text}</p>
+        return contentComments.map((d, i)=>
+              <div key={i} className={css.comment}>
+                <p className={css.user}>{d.userId}</p>
+                <p className={css.desc}>{d.text}</p>
               </div>
           );
     }
@@ -73,7 +73,7 @@ function FullPage(props) {
                     {contentComp}
                 </div>
                 <hr></hr>
-                <div class={css.comments}>
+                <div className={css.comments}>
                     {renderComments()}
                 </div>
                 {toggleComment &&
@@ -97,7 +97,7 @@ function FullPage(props) {
                     </div>
                     <div>
                         {commentCount}
-                        <button onClick={e=>setToggleComment(!toggleComment)}>
+                        <button onClick={()=>setToggleComment(!toggleComment)}>
                             <img className="img-fluid" src={publicUrl('/assets/comment.svg')} alt="Comment"/>
                         </button>
                     </div>

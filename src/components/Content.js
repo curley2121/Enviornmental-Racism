@@ -11,9 +11,9 @@ import { Dropdown } from "react-bootstrap";
 function Content() {
   let { filter } = useParams();
   // Default State
-  let { content, likes } = useContext(StoreContext);
+  let { content } = useContext(StoreContext);
   const [value, setValue] = useState("Most Liked");
-  const [filtered, setFiltered] = useState(
+  const [filtered,] = useState(
     filter === "mostPopular" || filter === "all"
       ? content
       : content.filter((cont) => cont.type === filter)

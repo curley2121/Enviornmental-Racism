@@ -6,8 +6,8 @@ function Video(props) {
     return (
         <div>
             <h2>{content.title}</h2>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe title={content.title} class="embed-responsive-item" src={content.embed} allowfullscreen></iframe>
+            <div className="embed-responsive embed-responsive-16by9">
+                <iframe title={content.title} className="embed-responsive-item" src={content.embed} allowFullScreen></iframe>
             </div>
         </div>
     );

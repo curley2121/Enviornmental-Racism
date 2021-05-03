@@ -11,23 +11,18 @@ function Header() {
   function handleReturn(){
     history.goBack();
   }
-  
-  function handleSearch(){
-    history.goBack();
-  }
 
-
-    return (
-        <div className={css.navbar} >
-               
-            
-                <Link to="/home">
-                  <img src = {publicUrl("/assets/EnviroLogo.svg")} alt = 'Home'  className={css.icon}/>
-                </Link>
-                
-                <img src = {publicUrl("/assets/return.svg")} alt = 'Return' onClick={handleReturn} className={css.icon}/>         
-        </div>
-    );
+  return (
+      <div className={css.navbar} >
+              
+          
+              <Link to="/home">
+                <img src = {publicUrl("/assets/EnviroLogo.svg")} alt = 'Home'  className={css.icon}/>
+              </Link>
+              
+              <img src = {publicUrl("/assets/return.svg")} alt = 'Return' onClick={handleReturn} className={css.icon}/>         
+      </div>
+  );
 }
 
 export default Header;
