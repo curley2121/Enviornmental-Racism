@@ -58,14 +58,13 @@
     border: none!important;
     width: 250px!important;
     color: rgb(255, 255, 255)!important;
-    padding-bottom: 10px;
-    padding-top:10px;
+    padding-bottom: 10px !important;
+    padding-top:10px !important;
     text-align: center!important;
     text-decoration: none!important;
     margin: 0px auto!important;    
     display:block!important;
     cursor:pointer!important;
-    
   }
   .item:hover {
     background-color: rgb(50, 32, 92);
@@ -92,60 +91,3 @@
     padding-bottom: 20px;
   }
 
-  .drop {
-    background-color: rgb(0, 32, 92) !important;
-    
-    width: 250px !important;
-    height: 40px !important;
-    color: rgb(255, 255, 255) !important;
-    padding-bottom: 10px;
-    text-align: center !important;
-    text-decoration: none !important;
-    margin: 0px auto !important;    
-    display:block !important;
-    cursor:pointer;
-    
-  }
-  .drop:hover {
-    background-color: rgb(30, 76, 163) !important;
-
-    
-  }
-  .item{
-    background-color: rgb(0, 32, 92)!important;
-    border: none!important;
-    width: 250px!important;
-    color: rgb(255, 255, 255)!important;
-    padding-bottom: 30px;
-    padding-top:30px;
-    text-align: center!important;
-    text-decoration: none!important;
-    margin: 0px auto!important;    
-    display:block!important;
-    cursor:pointer!important;
-    
-  }
-  .item:hover {
-    background-color: rgb(50, 32, 92);
-  }
-  
-  a:hover, a:active {
-    background-color: rgb(209, 209, 230);
-  }
-
-  input {
-    display: block !important;
-    font-family: "Helvetica";
-    width: 250px;
-    text-align: center;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    background-color: #ffffff;
-    border: 1.5px solid #392f5a;
-    border-radius: 5px;
-    padding:5px;
-  }
-  
-  .searchInput {
-    padding-bottom: 20px;
-  }
