@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import css from "./Content.module.css";
 import { useParams, Link } from "react-router-dom";
 import ContentCard from "./ContentCard";
@@ -14,7 +14,7 @@ function Content() {
   let { content } = useContext(StoreContext);
   const [value, setValue] = useState("Most Liked");
   const [filtered,] = useState(
-    filter === "all"
+    filter === "all" || filter === "mostPopular"
       ? content
       : content.filter((cont) => cont.type === filter)
   );
@@ -43,6 +43,7 @@ function Content() {
   };
 
   function resort() {
+    console.log("sorting on ", value);
     if (value === "Most Recent") {
       setDisplayed(
         filtered.sort((a, b) => new Date(b.datetime) - new Date(a.datetime))
@@ -84,6 +85,8 @@ function Content() {
     console.log(results);
     setDisplayed(results);
   };
+
+  useEffect(resort, []);
 
   return (
     <div className={css.container}>
