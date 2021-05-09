@@ -1,6 +1,4 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import initialStore from '../utils/initialStore';
 import { StoreContext } from '../contexts/StoreContext.js';
 import css from "./About.module.css";
 

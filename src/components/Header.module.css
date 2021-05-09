@@ -15,16 +15,16 @@
 
     border-bottom: 1px solid #dbdbdb;
     background-color: #fff;
+    position:sticky;
 }
 
 .navbutton{
   padding: 3px;
-  outline-color: rgb(0, 32, 92);
-  outline-width: 2px;
-  outline-style: solid;
+  border: 5px solid;
+  border-color: rgb(0, 32, 92);
   background: none;
   font-size: 100%;
-  font-family: inherit;
+  font-family: helvetica;
   margin-top:5px;
 }
 .navbutton:focus{

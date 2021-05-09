@@ -1,22 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import publicUrl from '../utils/publicUrl';
 import css from './Home.module.css';
 
 function Home() {
     return (
         <div className={css.container}>
-            <h1 className={css.title}>Welcome to -NAME- </h1>
+            <h1 className={css.title}>Welcome to ENDviroRacism </h1>
+            <img src = {publicUrl("/assets/EnviroLogo.svg")} alt = 'Home'  className={css.logo_main}/>
                 <Link to="/about">
                   <button className={css.contbutton}>
                     About Us
                   </button>
                 </Link>
-                <Link to="/Content/all">
-                  <button className={css.contbutton}>
-                    All content
-                  </button>
-                </Link>
-            
                 <Link to="/Content/mostPopular">
                   <button className={css.contbutton}>
                     Most Popular
@@ -50,9 +46,15 @@ function Home() {
                     Organizations
                   </button>
                 </Link>
+                <Link to="/Content/all">
+                  <button className={css.contbutton}>
+                    All content
+                  </button>
+                </Link>
             
         </div>
     )
 }
 
 export default Home;
+

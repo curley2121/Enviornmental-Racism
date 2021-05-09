@@ -4,7 +4,15 @@
 
 }
 .title{
+    font-family: "HelveticaNeue-CondensedBold" !important;
     text-align: center;
+    font-weight:bold;
+    color: rgb(0, 32, 92);
+    padding-bottom: 5px;
+    padding-top: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 .card {
     background-color: #ffffff;
@@ -16,43 +24,47 @@
     text-decoration: none;
     margin: 70px auto;    
     display:block;
-    outline-color: rgb(0, 32, 92);
-    outline-width: 8px;
-    outline-style: solid;
+    border: 7px solid;
+    border-color: rgb(0, 32, 92);
+    border-radius: 8px;
+
+  }
+
+  @media screen {
+    
   }
 
   .drop {
-    background-color: rgb(0, 32, 92);
+    background-color: rgb(0, 32, 92) !important;
     
-    width: 300px;
-    height: 40px;
-    color: rgb(255, 255, 255);
-    padding: 0px 0px;
-    text-align: center;
-    text-decoration: none;
-    margin: 0px auto;    
-    display:block;
+    width: 250px !important;
+    height: 40px !important;
+    color: rgb(255, 255, 255) !important;
+    padding-bottom: 10px;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin: 0px auto !important;    
+    display:block !important;
     cursor:pointer;
     
   }
   .drop:hover {
-    background-color: rgb(30, 76, 163);
+    background-color: rgb(30, 76, 163) !important;
 
     
   }
   .item{
-    background-color: rgb(0, 32, 92);
-    border: none;
-    width: 300px;
-    height: 20px;
-    color: rgb(255, 255, 255);
-    padding: 20px 0px;
-    text-align: center;
-    text-decoration: none;
-    margin: 0px auto;    
-    display:block;
-    cursor:pointer;
-    
+    background-color: rgb(0, 32, 92)!important;
+    border: none!important;
+    width: 250px!important;
+    color: rgb(255, 255, 255)!important;
+    padding-bottom: 10px !important;
+    padding-top:10px !important;
+    text-align: center!important;
+    text-decoration: none!important;
+    margin: 0px auto!important;    
+    display:block!important;
+    cursor:pointer!important;
   }
   .item:hover {
     background-color: rgb(50, 32, 92);
@@ -61,3 +73,21 @@
   a:hover, a:active {
     background-color: rgb(209, 209, 230);
   }
+
+  input {
+    display: block !important;
+    font-family: "Helvetica";
+    width: 250px;
+    text-align: center;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    background-color: #ffffff;
+    border: 1.5px solid #392f5a;
+    border-radius: 5px;
+    padding:5px;
+  }
+  
+  .searchInput {
+    padding-bottom: 20px;
+  }
+

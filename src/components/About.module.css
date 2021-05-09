@@ -6,5 +6,8 @@
 
 }
 .title {
+    font-family: "HelveticaNeue-CondensedBold" !important;
     text-align: center;
+    padding: 20px;
+    font-weight:bold;
 }
